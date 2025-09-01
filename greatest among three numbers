@@ -7,13 +7,13 @@ printf("enter second number");
 scanf("%d" , &b);
 printf("enter third number");
 scanf("%d" , &c);
-if(a>b,a>c) {
+if(a>b && a>c) {
 	printf("a is greater integer");
 }
-else if(b>a,b>c) {
+else if(b>a && b>c) {
 	printf("b is greater integer");
 }
-else if(c>b,c>a) {
+else if(c>b && c>a) {
 	printf("c is greater");
 }
 else {
